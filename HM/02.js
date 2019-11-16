@@ -27,7 +27,7 @@ for(x of str){
 let hour = prompt("Который час")
 let hoursec = 60 * 60 * Number(hour)
 alert('В ' + hour + " часах " + hoursec + " секунд")
-//04
+//03.1
 var hour = Number(prompt("Который час"))
 while(true){
     if(hour !== Number(hour)){
@@ -38,3 +38,47 @@ while(true){
 }
 let hoursec = 60 * 60 * Number(hour)
 alert('В ' + hour + " часах " + hoursec + " секунд")
+//04
+var num = 1;
+num += 12;
+num -= 14;
+num *= 5;
+num /= 7;
+num += 1;
+num -= 1;
+alert(num);
+//05
+let num = 3;
+alert(num)
+//06
+let a = 10;
+let b = 2;
+alert(a + b);
+alert(a - b);
+alert(a * b);
+alert(a / b);
+//07
+let c = 15;
+let d = 2;
+let result = c + d;
+alert(result);
+//08
+let str = "Привет Мир!"
+str.charCodeAt()
+//09
+let name = prompt('Как вас зовут?')
+alert('Вас зовут ' + name)
+//10
+let yourNumm = prompt('Ваше число:')
+alert(yourNumm ** 2)
+//11
+let kolsec = prompt("КОЛИЧЕСТВО ВРЕМЕНИ:")
+if(kolsec === "10h"){
+    alert(60 * 60 * 10)
+}else if(kolsec === "10d"){
+    alert(60 * 60 * 10 * 24)
+}else if(kolsec === "10w"){
+    alert(60 * 60 * 24 * 7 * 10)
+}else if(kolsec === "10m"){
+    alert(60 * 60 * 24 * 30 * 10)
+}
